@@ -1,0 +1,14 @@
+tls:
+  enabled: true
+  proxy:
+    enabled: true
+  broker:
+    enabled: true
+
+certs:
+  internal_issuer:
+    enabled: true
+
+# pulsar_manager:
+#   service:
+#     type: ClusterIP

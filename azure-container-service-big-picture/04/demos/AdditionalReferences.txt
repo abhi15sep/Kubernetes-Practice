@@ -1,0 +1,62 @@
+# AKS Documentation
+https://docs.microsoft.com/en-us/azure/aks/
+
+# Cluster Creation Options
+https://docs.microsoft.com/en-us/azure/aks/create-cluster
+
+# Persistent Volumes on AKS
+https://docs.microsoft.com/en-us/azure/aks/azure-disks-dynamic-pv
+
+# Kubernetes Persistent Volumes 
+https://kubernetes.io/docs/concepts/storage/persistent-volumes/
+
+# Use Virtual Kubelet with Azure Kubernetes Service (AKS)
+https://docs.microsoft.com/en-us/azure/aks/virtual-kubelet
+
+# Use an internal load balancer with Azure Kubernetes Service (AKS)
+https://docs.microsoft.com/en-us/azure/aks/internal-lb
+
+# Terraform Azure Provider
+https://www.terraform.io/docs/providers/azurerm/
+
+# Creating a Kubernetes Cluster with AKS and Terraform
+https://www.hashicorp.com/blog/kubernetes-cluster-with-aks-and-terraform
+
+# Monitor Azure Kubernetes Service (AKS) container health (preview)
+https://docs.microsoft.com/en-us/azure/monitoring/monitoring-container-health
+
+# Install applications with Helm in Azure Kubernetes Service (AKS)
+https://docs.microsoft.com/en-us/azure/aks/kubernetes-helm
+
+# Azure Dev Spaces
+https://docs.microsoft.com/en-us/azure/dev-spaces/azure-dev-spaces
+
+# Use Draft with Azure Kubernetes Service
+https://docs.microsoft.com/en-us/azure/dev-spaces/azure-dev-spaces
+
+Integrate with Azure-managed services using Open Service Broker for Azure (OSBA)
+https://docs.microsoft.com/en-us/azure/aks/integrate-azure
+
+Using OpenFaaS on AKS
+https://docs.microsoft.com/en-us/azure/aks/openfaas
+
+Using GPUs on AKS
+https://docs.microsoft.com/en-us/azure/aks/gpu-cluster
+
+Continuous deployment with Jenkins and Azure Kubernetes Service
+https://docs.microsoft.com/en-us/azure/aks/jenkins-continuous-deployment
+
+Tutorial: Deploy your ASP.NET Core App to Azure Kubernetes Service (AKS) with the Azure DevOps Project
+https://docs.microsoft.com/en-us/azure/devops-project/azure-devops-project-aks
+
+SSH into Azure Kubernetes Service (AKS) cluster nodes
+https://docs.microsoft.com/en-us/azure/aks/aks-ssh
+
+Get started with Visual Studio Kubernetes Tools
+https://docs.microsoft.com/en-us/visualstudio/deployment/tutorial-kubernetes-tools
+
+Frequently asked questions about Azure Kubernetes Service (AKS)
+https://docs.microsoft.com/en-us/azure/aks/faq
+
+Azure Kubernetes Service (AKS) pricing
+https://azure.microsoft.com/en-us/pricing/details/kubernetes-service/

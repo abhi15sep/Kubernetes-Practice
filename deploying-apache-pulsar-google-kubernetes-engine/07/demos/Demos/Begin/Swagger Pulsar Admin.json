@@ -1,0 +1,206 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Pulsar Admin",
+    "version": "v0.0.0"
+  },
+  "host": "34.122.125.189",
+  "schemes": [
+    "https"
+  ],
+  "basePath": "/admin/v2",
+  "paths": {
+    "/tenants": {
+      "get": {
+        "summary": "Admin API Tentants",
+        "description": "",
+        "operationId": "9450db44-6db3-48ab-a12d-89cd13a96d38",
+        "responses": {
+          "default": {
+            "description": "no response description was provided for this operation"
+          }
+        },
+        "parameters": []
+      }
+    },
+    "/persistent/vendor/product/partitioned": {
+      "get": {
+        "summary": "Admin API Topics",
+        "description": "",
+        "operationId": "35e6af3d-2d46-41df-a88b-fcc3882992f6",
+        "responses": {
+          "default": {
+            "description": "no response description was provided for this operation"
+          }
+        },
+        "parameters": []
+      }
+    },
+    "/namespaces/vendor/product": {
+      "get": {
+        "summary": "Get Namespace Settings",
+        "description": "",
+        "operationId": "86a309be-c53b-4fd4-bbf0-5709a787bcdf",
+        "parameters": [
+          {
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": ""
+            },
+            "in": "body",
+            "name": "body"
+          }
+        ],
+        "responses": {
+          "default": {
+            "description": "no response description was provided for this operation"
+          }
+        }
+      }
+    },
+    "/namespaces/vendor/product/schemaAutoUpdateCompatibilityStrategy": {
+      "get": {
+        "summary": "Get Namespace Schema Compat Strategy",
+        "description": "",
+        "operationId": "909770b8-11bb-4902-9511-721a2b010bcf",
+        "parameters": [
+          {
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": ""
+            },
+            "in": "body",
+            "name": "body"
+          }
+        ],
+        "responses": {
+          "default": {
+            "description": "no response description was provided for this operation"
+          }
+        }
+      },
+      "put": {
+        "summary": "Set Namespace Schema Compat Strategy",
+        "description": "",
+        "operationId": "7753946a-fd80-42d2-a805-94b7974f8c35",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "\"Forward\""
+            },
+            "in": "body",
+            "name": "body"
+          }
+        ],
+        "responses": {
+          "default": {
+            "description": "no response description was provided for this operation"
+          }
+        }
+      }
+    },
+    "/namespaces/vendor/product/schemaValidationEnforced": {
+      "get": {
+        "summary": "Get Namespace Schema Validation Enforced",
+        "description": "",
+        "operationId": "c147e531-733a-455a-8a69-8e14c9d87849",
+        "parameters": [
+          {
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": ""
+            },
+            "in": "body",
+            "name": "body"
+          }
+        ],
+        "responses": {
+          "default": {
+            "description": "no response description was provided for this operation"
+          }
+        }
+      },
+      "post": {
+        "summary": "Set Namespace Schema Validation Enforced",
+        "description": "",
+        "operationId": "7c8c315d-a329-4e47-9413-fce4c0035b27",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "false"
+            },
+            "in": "body",
+            "name": "body"
+          }
+        ],
+        "responses": {
+          "default": {
+            "description": "no response description was provided for this operation"
+          }
+        }
+      }
+    },
+    "/schemas/vendor/product/test/schema": {
+      "get": {
+        "summary": "Get Schema on Topic",
+        "description": "",
+        "operationId": "57f9cacf-2e8d-4077-9e92-6c02193f6848",
+        "responses": {
+          "default": {
+            "description": "no response description was provided for this operation"
+          }
+        },
+        "parameters": []
+      },
+      "post": {
+        "summary": "Update Schema on Topic",
+        "description": "",
+        "operationId": "dc2f4a94-b2fc-49ca-95e0-ebfb7d3000e5",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "{\n  \"type\": \"JSON\",\n  \"schema\": \"{\\\"fields\\\":[{\\\"name\\\":\\\"ID\\\",\\\"type\\\":\\\"int\\\"},{\\\"name\\\":\\\"Name\\\",\\\"type\\\":\\\"string\\\"},{\\\"name\\\":\\\"LastName\\\",\\\"type\\\":\\\"string\\\"}],\\\"name\\\":\\\"User\\\",\\\"namespace\\\":\\\"core\\\",\\\"type\\\":\\\"record\\\"}\",\n  \"properties\": {}\n}"
+            },
+            "in": "body",
+            "name": "body"
+          }
+        ],
+        "responses": {
+          "default": {
+            "description": "no response description was provided for this operation"
+          }
+        }
+      },
+      "delete": {
+        "summary": "Delete Schema on Topic",
+        "description": "",
+        "operationId": "849f376e-9c32-46be-a72e-43100a188c5a",
+        "responses": {
+          "default": {
+            "description": "no response description was provided for this operation"
+          }
+        },
+        "parameters": []
+      }
+    }
+  },
+  "tags": []
+}
